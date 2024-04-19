@@ -62,17 +62,17 @@ void GroceryTracker::displayMenu() {
         // Handle user's menu selection using a switch statement
         switch (choice) {
         case 1:
-            SearchForItem();
+            searchForItem();
             break;
 
         case 2:
             // Call the PrintFrequencyList function to display the list
-            PrintFrequencyList();
+            printFrequencyList();
             break;
 
         case 3:
             // Call the PrintHistogram function to display the histogram
-            PrintHistogram();
+            printHistogram();
             break;
 
         case 4:
