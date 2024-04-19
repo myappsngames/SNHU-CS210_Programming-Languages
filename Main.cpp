@@ -2,7 +2,7 @@
 
 int main() {
     GroceryTracker itemTracker;
-    itemTracker.analyzeFile("CS210_Project_Three_Input_File");
+    itemTracker.analyzeFile("CS210_Project_Three_Input_File.txt");
     itemTracker.displayMenu();
     return 0;
 }
