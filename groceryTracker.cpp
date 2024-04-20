@@ -6,7 +6,10 @@
 
 GroceryTracker::GroceryTracker()
 {
-
+    // Initialize an empty map for storing item frequencies
+    itemFrequencies_ = std::map<std::string, int>();
+    // Optionally, initialize the filename member to an empty string
+    filename_ = "";
 }
 
 void GroceryTracker::analyzeFile(const std::string& filename) {
@@ -37,6 +40,9 @@ void GroceryTracker::analyzeFile(const std::string& filename) {
     }
     // close the input file after reading all data
     inputFile.close();
+
+    // Save item and frequency data to frequency.dat file
+    saveToFile();
 }
 
 void GroceryTracker::displayMenu() {
@@ -58,6 +64,7 @@ void GroceryTracker::displayMenu() {
         // Prompt the user for their choice
         std::cout << "Enter your choice: ";
         std::cin >> choice;
+        std::cout << std::endl;
 
         // Handle user's menu selection using a switch statement
         switch (choice) {
@@ -154,7 +161,7 @@ void GroceryTracker::saveToFile() const
     // Saves the item frequencies data to a file
 
     // Open the output file using the filename member variable
-    std::ofstream outputFile(filename_);
+    std::ofstream outputFile("frequency.dat");
 
     // Check if the file was opened successfully
     if (!outputFile.is_open()) {
