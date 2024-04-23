@@ -22,17 +22,17 @@ This project is the third and final project for the CS 210 Programming Languages
   * Object-Oriented Programming (OOP) Concepts
     * Designing a class to encapsulate data and functionalities
     * Utilizing member functions to perform specific tasks within a class
-* C++ Fundamentals:
-  * Applying core C++ concepts like std::map for storing item frequencies as key-value pairs
-  * Utilizing std::ifstream and std::ofstream for file I/O operations
-  * Employing basic error handling techniques such as checking if files are opened successfully
-* Problem-Solving and Algorithm Design:
-  * Breaking down the task of tracking grocery item frequencies into smaller, manageable steps
-  * Implementing algorithms for reading and processing data from a file
-  * Designing functions to search for specific items and display data in various formats
-* User Interface Design:
-  * Creating a text-based menu for user interaction with the program
-  * printing informative messages to guide the user and displaying results
+  * C++ Fundamentals:
+    * Applying core C++ concepts like std::map for storing item frequencies as key-value pairs
+    * Utilizing std::ifstream and std::ofstream for file I/O operations
+    * Employing basic error handling techniques such as checking if files are opened successfully
+  * Problem-Solving and Algorithm Design:
+    * Breaking down the task of tracking grocery item frequencies into smaller, manageable steps
+    * Implementing algorithms for reading and processing data from a file
+    * Designing functions to search for specific items and display data in various formats
+  * User Interface Design:
+    * Creating a text-based menu for user interaction with the program
+    * printing informative messages to guide the user and displaying results
 
 * How did you make this program maintainable, readable, and adaptable?
   * The program is readable by using meaningful names for variables and functions, proper indentation, and comments to enhance code clarity and understanding.
