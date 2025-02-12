@@ -1,5 +1,5 @@
-# SNHU CS-210 Project Three (Item Tracker Program)
-This project is the third and final project for the CS 210 Programming Languages course at SNHU. The project is an item-tracking program that analyzes text records The Corner Grocer (grocery store) generates throughout the day providing information on how often items are purchased.
+# SNHU CS-210 Programming Languages Journal
+Final project
 
 # Reflection
 ### Summarize the project and what problem it was solving.
